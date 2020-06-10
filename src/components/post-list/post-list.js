@@ -5,9 +5,14 @@ import './post-list.css';
 const PostList = () => {
     return(
         <ul className="app-list list-group">
-            <PostListItem/>
-            <PostListItem/>
-            <PostListItem/>
+            <PostListItem
+            label="Giong to learning React"
+            important
+            />
+            <PostListItem
+            label="Thet is so good"/>
+            <PostListItem
+            label="I need a break..."/>
         </ul>
     )
 }
